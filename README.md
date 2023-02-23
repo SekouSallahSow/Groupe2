@@ -4,5 +4,6 @@ TP réalisé par les étudiants de IPSMART. Il s'agit d'un site web pour un hote
 <===================================================================================================>
 
 Langages : JavaScript - PHP - HTML5 - CSS3
+@Author : Groupe2 IPSMART
 
 <===================================================================================================>
