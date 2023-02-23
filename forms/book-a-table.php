@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'sowsekou@hotmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -23,15 +23,7 @@
   $book_a_table->from_email = $_POST['email'];
   $book_a_table->subject = "New table booking request from the website";
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $book_a_table->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+
 
   $book_a_table->add_message( $_POST['name'], 'Name');
   $book_a_table->add_message( $_POST['email'], 'Email');
