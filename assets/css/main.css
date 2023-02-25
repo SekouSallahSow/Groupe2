@@ -1042,11 +1042,14 @@ section {
   background-position: cente;
   min-height: 600px;
   padding: 30px;
+  border-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 @media (max-width: 575px) {
   .events .event-item {
     min-height: 500px;
+  
   }
 }
 
