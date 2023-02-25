@@ -8,9 +8,10 @@
 	letter-spacing: 1px;
 	margin-bottom: 20px;
 }
-.center-text h2{
+.center-text h5{
 	font-size: var(--h2-font);
 	line-height: 1.2;
+	margin-top: 60px;
 }
 .categories-content{
 	display: grid;
@@ -25,6 +26,10 @@
 	height: auto;
 	width: 110px;
 	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.box img .img-pizza{
+	height: 10px;
 }
 .box{
 	padding: 25px 60px;
