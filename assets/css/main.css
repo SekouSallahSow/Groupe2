@@ -1134,6 +1134,7 @@ section {
   background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
+  
 }
 
 .chefs .chef-member .social {
